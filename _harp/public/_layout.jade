@@ -12,10 +12,10 @@ html(lang="en")
     .container-fluid
       .row-fluid
         .span3
-          !=partial("_shared/index")
+          !=partial("/redesignsandbox/_shared/index")
         .span9
           .main-content
             !=yield
-    !=partial("_shared/footer")
-    script(src="_bootstrap/docs/assets/js/jquery.js").
-    script(src="_bootstrap/docs/assets/js/bootstrap.js");
+    !=partial("/redesignsandbox/_shared/footer")
+    script(src="/redesignsandbox/_bootstrap/docs/assets/js/jquery.js").
+    script(src="/redesignsandbox/_bootstrap/docs/assets/js/bootstrap.js");
